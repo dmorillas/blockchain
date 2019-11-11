@@ -1,0 +1,10 @@
+apply from: 'build-dependency-versions.gradle'
+
+dependencies {
+    compile(group: 'com.google.code.gson', name:'gson', version: versions.gson)
+
+    testCompile (group: "junit", name: "junit", version: versions.junit)
+    testCompile (group: "se.mockachino", name: "mockachino", version: versions.mockachino)
+    testCompile (group: "org.hamcrest", name: "hamcrest-all", version: versions.hamcrest)
+
+}

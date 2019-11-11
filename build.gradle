@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+	    jcenter()
+    }
+}
+
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+apply from: 'build-dependencies.gradle'
+
+idea {
+    module {
+        inheritOutputDirs = false
+        outputDir = file("$buildDir/classes/main/")
+    }
+}
+
+tasks.idea.dependsOn(cleanIdea)
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.5'
+}

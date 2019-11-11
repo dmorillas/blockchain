@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-blockchain.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-blockchain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-blockchain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-blockchain_main.iml" group="simple-blockchain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-blockchain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-blockchain_test.iml" group="simple-blockchain" />
+    </modules>
+  </component>
+</project>
